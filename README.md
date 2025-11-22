@@ -2,6 +2,12 @@
 
 This repository is a fork of [terraform-provider-shell](https://github.com/scottwinkler/terraform-provider-shell) by Scott Winkler.
 
+This fork changes:
+
+- Updated all dependencies
+- Fixed CodeQL issues
+- Added shell_sensitive_script
+
 ---
 
 Terraform Provider Shell
