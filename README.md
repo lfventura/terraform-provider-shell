@@ -1,6 +1,12 @@
+# Fork Notice
+
+This repository is a fork of [terraform-provider-shell](https://github.com/scottwinkler/terraform-provider-shell) by Scott Winkler.
+
+---
+
 Terraform Provider Shell
 ==================
-https://registry.terraform.io/providers/scottwinkler/shell
+https://registry.terraform.io/providers/lfventura/shell
 
 This plugin is for wrapping shell scripts to make them fully fledged terraform resources. Note that this is a backdoor into the Terraform runtime. You can do some pretty dangerous things with this and it is up to you to make sure you don't get in trouble.
 
@@ -49,7 +55,7 @@ You can use this provider to make custom external resources and data sources:
 terraform {
   required_providers {
     shell = {
-      source = "scottwinkler/shell"
+      source = "lfventura/shell"
       version = "1.7.7"
     }
   }

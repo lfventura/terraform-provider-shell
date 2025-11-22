@@ -1,6 +1,6 @@
-module github.com/scottwinkler/terraform-provider-shell
+module github.com/lfventura/terraform-provider-shell
 
-go 1.17
+go 1.25.4
 
 require (
 	github.com/hashicorp/terraform-plugin-sdk v1.17.2
