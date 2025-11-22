@@ -107,7 +107,7 @@ func runCommand(c *CommandConfig) (map[string]string, error) {
 		errorS += fmt.Sprintf("Env: \n%s\n\n", c.Environment)
 		if c.Action != ActionCreate {
 			stdin, _ := json.Marshal(c.PreviousOutput)
-			errorS += fmt.Sprintf("StdIn: \n'%s'\n", stdin)
+			errorS += fmt.Sprintf("StdIn: \n%q\n", stdin)
 		}
 		return nil, errors.New(errorS)
 	}
