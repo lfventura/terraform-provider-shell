@@ -8,6 +8,8 @@ This fork changes:
 - Fixed CodeQL issues
 - Added shell_sensitive_script
 
+IMPORTANT INFO: If the output command is not a JSON, the resource will not generate outputs and it will re-run on the next plan. This is from the original project. I would like to have this behavior handled better.
+
 ---
 
 Terraform Provider Shell
